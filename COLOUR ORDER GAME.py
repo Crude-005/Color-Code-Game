@@ -41,7 +41,7 @@ def game(pattern,set_chances,set_len):
                     print ("BOOYAH! You made it in" , chance,"chances" )
                     break
                 else:
-                    print ("Positions = ", r, "Colours= ", w)
+                    print ("Positions =", r, "Colours =", w)
                     chance+=1
             else:
                 print ("Invalid input")
